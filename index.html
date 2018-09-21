@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang>
+  <head>
+    <meta charset="utf-8">
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Information</legend>
+        <label for="email">Email</label><br>
+        <input id="email" type="email" name="email" value="" placeholder="Email"><br>
+    
+        <br>
+        <label for="password">Password</label><br>
+         <input id="password" type="password" name="password" value="" placeholder="Password"><br>
+    
+        <br>
+        <label for="github">GitHub Username</label><br>
+        <input id="github" type="text" name="github-username" value="" placeholder="GitHub Username"><br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Which type of membership?</legend>
+        <input id="membership-enterprise" type="radio" name="membership" value="Enterprise">
+        <label for="membership-enterprise">Enterprise</label><br>
+
+        <input id="membership-pro" type="radio" name="membership" value="Pro">
+        <label for="membership-pro">Pro</label><br>
+
+        <input id="membership-free" type="radio" name="membership" value="Free">
+        <label for="membership-free">Free</label><br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Remember you for next time?</legend>
+        <input id="remember-me" type="checkbox" name="remember" value="Remember Me">
+        <label for="remember-me">Remember Me</label><br>
+      </fieldset>
+
+      <br>
+      <button type="submit" name="button">Submit</button>
+    </form>
+  </body>
+</html>
